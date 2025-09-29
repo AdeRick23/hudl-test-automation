@@ -198,7 +198,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [AdeRick23](https://github.com/yourusername)
+- GitHub: [AdeRick23](https://github.com/AdeRick23)
 
 ## 🙏 Acknowledgments
 
