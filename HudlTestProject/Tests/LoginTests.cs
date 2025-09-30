@@ -32,14 +32,20 @@ namespace HudlProject.Tests
         [TearDown]
         public void Cleanup()
         {
-            try
+             try
             {
                 var currentPageState = TestContext.CurrentContext;
-                basePage.CaptureScreenshotOnFailure(currentPageState, ScreenshotDirectory);
+                if (basePage != null)
+                {
+                    basePage.CaptureScreenshotOnFailure(currentPageState, ScreenshotDirectory);
+                }
             }
             finally
             {
-                basePage.QuitDriver();
+                if (basePage != null)
+                {
+                    basePage.QuitDriver();
+                }
             }
         }
 
